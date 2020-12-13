@@ -3,9 +3,7 @@ class Main {
   public static void main(String[] args) {
     //System.out.println("Hola Mundo soy Christian");
 //Creando metodo constructor de clase car.
-     Car car = new Car(); 
-     car.license="PJQ34-21";
-     car.driver="Christian Parada";
+     Car car = new Car("PJQ34-21", new Account("Christian Parada", "CMP1243")); 
      car.passegenger=4;
 //Imprimiendo datos de car con el metodo en la clase.
     car.DataCar();
@@ -16,9 +14,7 @@ class Main {
      */
 
     // Creando metodo constructor de clase car2.
-    Car car2 = new Car();
-    car2.license = "QWE567";
-    car2.driver = "Andrea Herrera";
+    Car car2 = new Car("QWE567", new Account( "Andrea Herrera", "AND123"));
     car2.passegenger = 3;
     // Imprimiendo datos de car2.
     car2.DataCar();

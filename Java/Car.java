@@ -1,10 +1,18 @@
  class Car {
         Integer id;
         String license;
-        String driver;
-        Integer passegenger;  
+        Account driver;
+        Integer passegenger; 
+
+        //Creando el metodo constructor.
+        public Car(String licence,Account driver){
+                this.license = licence;
+                this.driver=driver;
+        }
+        
+        //Metodo de impresion.
         void DataCar() {
-                System.out.println("License:" + license  +'\n'+ "Driver:" + driver+'\n'+ "Passegenger:"+ passegenger);
+                System.out.println("License:" + license  +'\n'+ "Name Driver:" + driver.name+'\n'+ "Passegenger:"+ passegenger);
                 
         }  
 }
