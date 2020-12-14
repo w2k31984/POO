@@ -4,7 +4,7 @@
         Account driver;
         Integer passegenger; 
 
-        //Creando el metodo constructor.
+        //Creando la clase principal.
         public Car(String licence,Account driver){
                 this.license = licence;
                 this.driver=driver;
