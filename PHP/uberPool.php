@@ -1,8 +1,8 @@
 <?php
-    require_once('car.php');
-    class uberX extends Car{
-        public $brand;
-        public $model;
+require_once('car.php');
+class uberPool extends Car{
+    public $brand;
+    public $model;
 
 //Colocando el constructor de la clase
     public function __construct($license, $driver, $brand, $model){
@@ -11,10 +11,7 @@
         $this->model = $model;
       }
 
-      
-    }
-
-
+}
 
 
 ?>

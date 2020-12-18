@@ -1,5 +1,5 @@
 <?php
-class Acount{
+class Account{
     public $id;
     public $name;
     public $document;
